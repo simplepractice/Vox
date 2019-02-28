@@ -1,6 +1,6 @@
 import Foundation
 
-extension Pagination {
+public extension Pagination {
     public class PageBased: PaginationStrategy {
         public func paginationURLQueryItems() -> [URLQueryItem] {
             var items: [URLQueryItem] = []

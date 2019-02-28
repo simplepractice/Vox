@@ -1,6 +1,6 @@
 import Foundation
 
-extension Pagination {
+public extension Pagination {
     public class CursorBased: PaginationStrategy {
         public func paginationURLQueryItems() -> [URLQueryItem] {
             let name = "\(key)[cursor]"
